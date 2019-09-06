@@ -181,6 +181,11 @@ table th {
 	font-weight: bold;
 }
 
+#form{
+	color: black;
+	font-weight: bold;
+}
+
 .circle123{
 	border-radius: 50%;
 }
