@@ -168,7 +168,7 @@ table th {
 		border-bottom: 0;
 	}
 	table td:before {
-		content: attr(data-label);
+		content: attr(data-tabel);
 		float: left;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -182,24 +182,6 @@ table th {
 
 .circle123{
 	border-radius: 50%;
-}
-
-.portofolio img{
-	width: 23%;
-	height: auto;
-}
-
-@media screen and (max-width: 600px){
-	.portofolio img{
-		padding: 0px;
-		width: 100%
-		height: auto;
-	}
-}
-
-.portofolio img:hover{
-	transform: scale(1.5);
-	transition: all 0.3s;
 }
 
 #credit{
