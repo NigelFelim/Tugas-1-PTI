@@ -177,7 +177,7 @@ table th {
 }
 
 #project{
-	color:black;
+	color: black;
 	font-weight: bold;
 }
 
@@ -193,3 +193,42 @@ table th {
 #credit{
 	text-align: center;
 }
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+	font-weight: bold;
+}
+
+form .submit{
+	background: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 45px;
+}
+
