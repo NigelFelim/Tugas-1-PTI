@@ -6,6 +6,9 @@
 body{
 	margin:0px;
 	padding:0px;
+	background-image: url("background.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #home{
@@ -232,3 +235,12 @@ input{
 	height: 45px;
 }
 
+#cv h2{
+	text-align: left;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+#cv h5{
+	text-align: left;
+}
